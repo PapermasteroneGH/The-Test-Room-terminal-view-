@@ -1,0 +1,52 @@
+html {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+body {
+  background-color: black;
+}
+
+.background {
+  background-color: rgb(13, 13, 13);
+  height: cover;
+  width: cover;
+  overflow: hidden;
+  z-index: -3;
+}
+
+.main-container {
+  margin-top: 30%;
+  margin-left: 40%;
+  margin-bottom: 30%;
+}
+
+.topbar {
+  background-color: rgb(148, 148, 148);
+  height: 12px;
+  width: 200px;
+  z-index: 2;
+}
+
+.narrator-area {
+  font-family: cascadia-code;
+  text-decoration: blur;
+  background-color: black;
+  color: rgb(251, 255, 0);
+  height: 140px;
+  width: 200px;
+  z-index: 1;
+}
+
+.text-area {
+  font-family: cascadia code;
+  text-decoration: blur;
+  background-color: black;
+  color: rgb(251, 255, 0);
+  border-color: black;
+  height: 12px;
+  width: 192px;
+  margin-bottom: -50px;
+  z-index: 1;
+}
